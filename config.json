@@ -6,5 +6,9 @@
     "logging": false,
     "host": "localhost",
     "dialect": "postgres"
+  },
+
+  "jwt": {
+    "secret": "ca34131a917834c5c928b74de9b3ad2018043befd201409ec005ded9f3c62bf9769edaeb94ef42a20ac9df5ce9ae76ce2756682c03c11acf0b9fd31d90d8f77e"
   }
 }

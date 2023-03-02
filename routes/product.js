@@ -10,7 +10,7 @@ const {
 } = require('../controller/index');
 
 router.post('/createProduct', createProduct);
-router.post('/getProduct', getProduct);
+router.get('/getProduct', getProduct);
 router.get('/getProductById', getProductById);
 router.put('/updateProduct', updateProduct);
 router.delete('/deleteProduct', deleteProduct);
